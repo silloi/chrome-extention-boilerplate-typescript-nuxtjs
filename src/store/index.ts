@@ -60,7 +60,7 @@ export const actions = {
     commit('setIsServerInitCalled')
 
     // ログインチェック
-    await dispatch('auth/loginCheck', {} as ILoginCheckPayload)
+    // await dispatch('auth/loginCheck', {} as ILoginCheckPayload)
   },
   /**
    * クライアント初期化時の処理
